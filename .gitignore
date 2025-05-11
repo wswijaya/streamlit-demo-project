@@ -172,3 +172,13 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Streamlit global devevelopment environment
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Exclude temporary files
+temp/*
+
+# Exclude data folder
+data/*
